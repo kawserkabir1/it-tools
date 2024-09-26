@@ -8,7 +8,7 @@ import { config } from '@/config';
 
 const toolStore = useToolStore();
 
-useHead({ title: 'IT Tools - Handy online tools for developers' });
+useHead({ title: 'Rbit Tools - Handy online tools for developers' });
 const { t } = useI18n();
 </script>
 
@@ -19,11 +19,11 @@ const { t } = useI18n();
         <ColoredCard :title="$t('home.follow.title')" :icon="Heart">
           {{ $t('home.follow.p1') }}
           <a
-            href="https://github.com/CorentinTh/it-tools"
+            href="https://cybertunnel.netlify.app"
             rel="noopener"
             target="_blank"
             :aria-label="$t('home.follow.githubRepository')"
-          >GitHub</a>
+          >Cyber Tunnel</a>
           {{ $t('home.follow.p2') }}
           <a
             href="https://twitter.com/ittoolsdottech"
