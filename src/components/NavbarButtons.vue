@@ -7,7 +7,7 @@ const { isDarkTheme } = toRefs(styleStore);
 </script>
 
 <template>
-  <c-tooltip :tooltip="$t('home.nav.github')" position="bottom">
+  <!--<c-tooltip :tooltip="$t('home.nav.github')" position="bottom">
     <c-button
       circle
       variant="text"
@@ -31,10 +31,10 @@ const { isDarkTheme } = toRefs(styleStore);
     >
       <n-icon size="25" :component="BrandTwitter" />
     </c-button>
-  </c-tooltip>
+  </c-tooltip>-->
 
   <c-tooltip :tooltip="$t('home.nav.about')" position="bottom">
-    <c-button circle variant="text" to="/about" :aria-label="$t('home.nav.aboutLabel')">
+    <c-button circle variant="text" to="https://rbit.win/CyberTunnel" :aria-label="$t('home.nav.aboutLabel')">
       <n-icon size="25" :component="InfoCircle" />
     </c-button>
   </c-tooltip>
