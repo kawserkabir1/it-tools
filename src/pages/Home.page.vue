@@ -25,14 +25,14 @@ const { t } = useI18n();
             :aria-label="$t('home.follow.githubRepository')"
           >Cyber Tunnel</a>
           {{ $t('home.follow.p2') }}
-          <a
+          <!--<a
             href="https://twitter.com/ittoolsdottech"
             rel="noopener"
             target="_blank"
             :aria-label="$t('home.follow.twitterAccount')"
           >Twitter</a>.
           {{ $t('home.follow.thankYou') }}
-          <n-icon :component="Heart" />
+          <n-icon :component="Heart" />-->
         </ColoredCard>
       </div>
 
