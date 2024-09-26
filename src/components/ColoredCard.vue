@@ -9,7 +9,7 @@ const { icon, title } = toRefs(props);
   <c-card class="colored-card">
     <n-icon class="icon" size="40" :component="icon" />
     <n-h3 class="title">
-      <n-ellipsis>{{ title }}</n-ellipsis>
+      <n-ellipsis>Visit</n-ellipsis>
     </n-h3>
 
     <div class="description">
